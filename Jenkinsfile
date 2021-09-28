@@ -1,6 +1,6 @@
 pipeline {
   
-  {nodejs "node"}
+  tools {nodejs "node"}
   
   agent {
       label 'a1'
